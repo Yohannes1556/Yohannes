@@ -8,7 +8,8 @@
 <body>
     <hr>
     <a href="index.html">Home</a> |
-    <a href="contact.html">Contact</a>
+    <a href="contact.html">Contact</a>|
+    <a href="gallery.html">Gallery</a>
 
 
 
@@ -26,31 +27,57 @@
    
     
     <h3>Contact Us</h3>
-    <form>
-        <label for="fName">First Name</label><input type="text" name="fName" id=fName>
-        <br>
-        <label for="sName">Last Name</label><input type="text"name="sName" id=sName>
-        <br>
-        <label for="email">Email</label><input type="email" name="email" id=email>
-        <br>
-        where are you from :
+    <form action="mailto:johnaddisu1556@gmail.com">
+        <table cellspacing=10>
+        <tr>
+            <td><label for="fName">First Name</label></td>
+            <td><input type="text" name="fName" id=fName></td>
+        </tr>
+        
+        <tr>
+            <td><label for="sName">Last Name</label></td>
+            <td><input type="text"name="sName" id=sName></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" id=email></td>
+        </tr>
+        <tr>
+            <td><label for="password">password</label></td>
+            <td><input type="password" name="password" id=password></td>
+        </tr>
+       
+        <tr>
+            <td> where are you from :</td>
+    
+        
+        <td>
         <select name="country" id="">
         <option value="af">Africa</option>
         <option value="as">Asia</option>
-        <option value="am">America</option>
-    </select>
-     <br><br>
-        What do you want to say?
-        <br>
-        <textarea name="detail" id="" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit">
+        <option value="na">North America</option>
+        <option value="sa">South America</option>
+        <option value="au">Australia</option>
+        </select>
+    </td>
+    </tr>
 
+     <tr>
+        <td> What do you want to say?</td>
+        
+        <td><textarea name="detail" id="" cols="30" rows="10"></textarea></td>
+     </tr>  
+     <tr>
+         <td></td>
+         <td>
+        <input type="submit"></td>
 
+    </tr>
+    </table>
     </form>
     <footer>
         <a href="http://www.facebook.com">Facebook</a>
-        <a href="http://www.Instagram.com">Instagram</a>
+        <a href="http://www.instagram.com">Instagram</a>
     </footer>
 
 
