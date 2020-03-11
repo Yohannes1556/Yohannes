@@ -16,14 +16,16 @@
     <hr>
     <table cellspacing="10">
         <tr>
-            <td> <img src="./asset/image/download.jfif" alt=""></td>
+            <td> <img src="./asset/image/download.jfif" alt="picture"></td>
             <td><h1>Yohannes A.</h1>
                 <h3>Student,Addis Ababa University</h3>
                 <p>My name is Yohannes Addisu,I am software engineering student at Addis Ababa university</p></td>
         </tr>
+        
 
 
     </table>
+    <hr>
    
     
     <h3>Contact Us</h3>
@@ -31,22 +33,38 @@
         <table cellspacing=10>
         <tr>
             <td><label for="fName">First Name</label></td>
-            <td><input type="text" name="fName" id=fName></td>
+            <td><input type="text" id="Fname" name="name" required size="45"
+                pattern="[a-z]{4,8}" title="4 to 8 lowercase letters"></td>
         </tr>
         
         <tr>
             <td><label for="sName">Last Name</label></td>
-            <td><input type="text"name="sName" id=sName></td>
+            <td><input type="text" id="lname" name="name" required size="45"
+                pattern="[a-z]{4,8}" title="4 to 8 lowercase letters"></td>
         </tr>
         <tr>
             <td><label for="email">Email</label></td>
-            <td><input type="email" name="email" id=email></td>
+            <td><input type="email" name="email" id=email pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" title="Must be valid email account">
+                </td>
         </tr>
         <tr>
             <td><label for="password">password</label></td>
-            <td><input type="password" name="password" id=password></td>
+            <td><input type="password" name="password" id=password pattern="[a-z]{8,}" title="Must be grater than 8 characters"></td>
         </tr>
-       
+        <tr>
+            <td><label for=phoneno>Enter your phone number in the format (123)456-7890 </label></td>
+                <td>(<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+                 <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
+                 <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
+               </td>
+          
+        </tr>
+        <tr>
+            <td><label for="color">choose your favourite colour</label></td>
+            <td><input type="color" name="color" id="color"></td>
+   
+   
+        </tr>
         <tr>
             <td> where are you from :</td>
     
@@ -67,6 +85,7 @@
         
         <td><textarea name="detail" id="" cols="30" rows="10"></textarea></td>
      </tr>  
+    
      <tr>
          <td></td>
          <td>
@@ -75,11 +94,12 @@
     </tr>
     </table>
     </form>
+    <hr>
     <footer>
         <a href="http://www.facebook.com">Facebook</a>
-        <a href="http://www.instagram.com">Instagram</a>
     </footer>
-
+<hr>
+<p><center>Developed by Yohannes A.&copy;2020</center></p>
 
 </body>
 </html>
