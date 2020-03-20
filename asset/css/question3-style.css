@@ -1,0 +1,260 @@
+body{
+    background-color:wheat;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section{
+    padding: 5%;
+    float: left;
+    margin: 50px;
+   
+}
+section>section{
+    height: 220px;
+    width: 520px;
+    border-top: solid 1px;
+}
+.flags{
+    float: left;
+}
+.belgium>div{
+    float: left;
+}
+.belgium>.black{
+    background-color: black;
+    width: 167px;
+    height: 200px;
+}
+.belgium>.yellow{
+    background-color:yellow;
+    width: 167px;
+    height: 200px;
+}
+.belgium>.red{
+    background-color: red;
+    width: 167px;
+    height: 200px;
+}
+.austria>.red{
+    background-color: red;
+    width: 500px;
+    height: 67px;
+}
+.austria>.white{
+    background-color:white;
+    width: 500px;
+    height: 67px;
+}
+.austria>.red{
+    background-color:red;
+    width: 500px;
+    height: 67px;
+}
+
+
+
+.bangladesh>.green{
+    background-color:green;
+    width: 500px;
+    height: 200px;
+}
+.bangladesh>.red{
+    position: relative;
+    top: -150px;
+    left: 200px;
+    background-color: red;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.poland>.white{
+    background-color: white;
+    width: 500px;
+    height: 100px;
+}
+.poland>.red{
+    background-color: red;
+    width: 500px;
+    height: 100px;
+}
+
+
+.england>.white{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+}
+.england>.red-hor{
+    position: relative;
+    top: -125px;
+    background-color: red;
+    width: 500px;
+    height: 50px;
+}
+.england>.red-ver{
+    position: relative;
+    top: -250px;
+    left: 225px;
+    background-color: red;
+    width: 50px;
+    height: 200px;
+}
+
+.ireland>div{
+    float: left;
+}
+.ireland>.green{
+    background-color: green;
+    width: 167px;
+    height: 200px;
+}
+.ireland>.white{
+    background-color: white;
+    width: 167px;
+    height: 200px;
+}
+.ireland>.orange{
+    background-color: orange;
+    width: 167px;
+    height: 200px;
+}
+
+.norway{
+    height: 200px;
+}
+.norway>.red{
+    background-color: red;
+    width: 500px;
+    height: 200px;
+}
+.norway>.blue-hor{
+    position: relative;
+    top: -110px;
+    background-color: blue;
+    width: 500px;
+    height: 30px;
+    border-bottom: 3px white solid;
+    border-top: 3px white solid;
+}
+.norway>.blue-ver{
+    position: relative;
+    top: -236px;
+    left: 240px;
+    background-color: blue;
+    width: 30px;
+    height: 200px;
+    border-left: 3px white solid;
+    border-right: 3px white solid;
+}
+.norway>.red-box{
+    background-color: blue;
+    width: 36px;
+    height: 30px;
+    position: relative;
+    left: 240px;
+    top: -343px;
+}
+
+.japan>.white{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+}
+.japan>.red{
+    position: relative;
+    top: -150px;
+    left: 200px;
+    background-color: red;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.gambia>.red{
+    background-color: red;
+    width: 500px;
+    height: 67px;
+}
+.gambia>.blue{
+    background-color: blue;
+    width: 500px;
+    height: 67px;
+}
+.gambia>.green{
+    background-color: green;
+    width: 500px;
+    height: 67px;
+}
+
+.bahamas>.blue{
+    background-color: rgb(60, 145, 243);
+    width: 500px;
+    height: 200px;
+}
+.bahamas>.yellow{
+    position: relative;
+    top: -134px;
+    background-color: yellow;
+    width: 500px;
+    height: 67px;
+}
+.bahamas>.black{
+    position: relative;
+    top: -267px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 150px solid black;
+}
+
+
+
+
+.greenland>.white{
+    background-color: white;
+    width: 500px;
+    height: 100px;
+}
+.greenland>.red{
+    background-color: red;
+    width: 500px;
+    height: 100px;
+}
+.greenland>.semi-circle{
+    position: relative;
+    top: -150px;
+    left: 200px;
+}
+.greenland>.semi-circle>.red-semi-circle{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+}
+.greenland>.semi-circle>.white-semi-circle{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+}
+
+.argentina>.blue{
+    background-color:skyblue;
+    width: 500px;
+    height: 67px;
+}
+.argentina>.white{
+    background-color: white;
+    width: 500px;
+    height: 67px;
+}
+.argentina>.blue{
+    background-color: skyblue;
+    width: 500px;
+    height: 67px;
+}
