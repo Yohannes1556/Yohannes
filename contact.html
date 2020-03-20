@@ -4,77 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yohannes A.</title>
-<style>
-
-
-</style>
-
+    <link rel="stylesheet" href="./asset/css/style.css">
 </head>
-<body>
-    <hr>
-    <a href="index.html">Home</a> |
-    <a href="contact.html">Contact</a>|
-    <a href="gallery.html">Gallery</a>
-    <a href="blog.html">Blog</a>
+<body vlink="black" link="black">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="" target="_self">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="MyWork.html">MyWork</a></li>
+                
+                
+            </ul>
+        </nav>
+    </header>
 
 
-    <hr>
-    <table cellspacing="10">
-        <tr>
-            <td> <img src="./asset/images/download.jfif" alt="picture"></td>
-            <td></td><h1>Yohannes A.</h1>
+       
+           <img src="./asset/images/download.jfif" alt="profile pic" class="Profile-picture">
+           <section class="about">
+
+            <h1>Yohannes A.</h1>
                 <h3>Student,Addis Ababa University</h3>
-                <p>My name is Yohannes Addisu,I am software engineering student at Addis Ababa university</p></td>
-        </tr>
-        
-
-
-    </table>
-    <hr>
+                <p>My name is Yohannes Addisu,I am software engineering student at Addis Ababa university</p>
+            </section>
+    
    
     
-    <h3>Contact Us</h3>
-    <form action="mailto:johnaddisu1556@gmail.com">
-        <table cellspacing=10>
-        <tr>
-            <td><label for="fName">First Name</label></td>
-            <td><input type="text" id="Fname" name="name" required size="45"
-                pattern="[a-z]{4,8}" title="4 to 8 lowercase letters"></td>
-        </tr>
+            <section class="contact-form">
+                <p class="contact-tittle">
+                    Contact 
+                </p>
+                </section>
+    <form method="POST" action="mailto:johnaddisu1556@gmail.com" enctype="utf-8" class="form">
+        <section class="form-input" >
+        <label for="fName">First Name</label>
+        <input type="text" id="Fname" name="name" required size="45"
+                pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
+         </section>
+
+            <section class="form-input">
+        <label for="sName">Last Name</label>
+            <input type="text" id="lname" name="name" required size="45"
+                pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
+                </section>
         
-        <tr>
-            <td><label for="sName">Last Name</label></td>
-            <td><input type="text" id="lname" name="name" required size="45"
-                pattern="[a-z]{4,8}" title="4 to 8 lowercase letters"></td>
-        </tr>
-        <tr>
-            <td><label for="email">Email</label></td>
-            <td><input type="email" name="email" id=email pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" title="Must be valid email account">
-                </td>
-        </tr>
-        <tr>
-            <td><label for="password">password</label></td>
-            <td><input type="password" name="password" id=password pattern="[a-z]{8,}" title="Must be grater than 8 characters"></td>
-        </tr>
-        <tr>
-            <td><label for=phoneno>Enter your phone number <br> in the format (123)456-7890 </label></td>
-                <td>(<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+                <section class="form-input">
+                <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email" id=email pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" title="Must be valid email account">
+        </section>    
+
+            <section class="form-input">
+            <label for="password">password</label>&nbsp;&nbsp;
+            <input type="password" name="password" id=password pattern="[a-z]{8,}" title="Must be grater than 8 characters">
+        </section>
+
+            <section class="form-input">
+            <label for=phoneno>phone number </label>
+                (<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
                  <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
                  <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
-               </td>
-          
-        </tr>
-        <tr>
-            <td><label for="color">choose your favourite colour</label></td>
-            <td><input type="color" name="color" id="color"></td>
+                </section>
    
-   
-        </tr>
-        <tr>
-            <td> where are you from :</td>
+            <section class="form-input">
+        
+            <label for="country">where are you from :</label> 
     
         
-        <td>
+        
         <select name="country" id="">
         <option value="af">Africa</option>
         <option value="as">Asia</option>
@@ -82,34 +81,40 @@
         <option value="sa">South America</option>
         <option value="au">Australia</option>
         </select>
-    </td>
-    </tr>
-
-     <tr>
-        <td> What do you want to say?</td>
+    
+    </section>
+    <section class="form-input">
+     <label for="comment">Your comment here:</label>
+         
         
-        <td><textarea name="detail" id="" cols="30" rows="10"></textarea></td>
-     </tr>  
-    
-     <tr>
-         <td></td>
-         <td>
+        <textarea name="detail" id="" cols="30" rows="10"></textarea>
+     
+    </section>
+    <section class="submit1">
+     
         <input type="submit"></td>
+        </section>
 
-    </tr>
-</table>
+
+
+
+
+        
+
 </form>
-<table>
-    <tr>
-        <td><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
-    </tr>
-    
-</table> 
-    <hr>
+<section class="map">
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://
+            maps.google.com/maps?q=addis%20ababa%20university&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" 
+            scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-
+            discount-code-elegant-themes-coupon/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas 
+            {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+</section>
     <footer>
         <a href="http://www.facebook.com">Facebook</a>
     </footer>
-<hr>
+
 <p><center>Developed by Yohannes A.&copy;2020</center></p>
 
 </body>

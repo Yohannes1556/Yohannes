@@ -1,0 +1,51 @@
+.tttb{
+    margin-left: 35%;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+}
+section{
+    width: 150px;
+    height: 150px;
+}
+.t1{
+    border-right: solid;
+    border-bottom: solid;
+    float: left;
+}
+.t2{
+    border-bottom: solid;
+    float: left;
+}
+.t3{
+    border-left: solid;
+    border-bottom: solid;
+    float: left;
+}
+.t4{
+    border-right: solid;
+    clear: left;
+    float: left;
+}
+.t5{
+    float: left;
+}
+.t6{
+    border-left: solid;
+    float: left;
+}
+.t7{
+    clear: left;
+    border-top: solid;
+    border-right: solid;
+    float: left;
+}
+.t8{
+    border-top: solid;
+    float: left;
+}
+.t9{
+    border-left: solid;
+    border-top: solid;
+    float: left;
+}

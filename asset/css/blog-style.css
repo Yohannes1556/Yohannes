@@ -1,0 +1,51 @@
+/* External Css */
+/* SECTION SELECTOR */
+body{
+    background-color: skyblue;
+    /* border: solid 10px lightgray; */
+    margin: 15px;
+}
+header{
+    background-color: rgba(211, 37, 52, 0.6);
+    position: fixed;
+    width: 100%;
+}
+
+section{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 30px;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 70px;
+}
+.article{
+    line-height: 25px;
+}
+.tittle{
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.date{
+    text-transform: uppercase;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li:hover{
+    background-color: mintcream;
+}
+img{
+    border-radius: 100%;
+    float: left;
+    margin-right: 50px;
+}
+#clear{
+    clear: left;
+}

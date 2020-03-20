@@ -1,0 +1,119 @@
+header{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li:hover{
+    background-color: pink;
+}
+.header1{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    width: "relative";
+    border-bottom: 2px solid;
+}
+.Profile-picture{
+    border-radius: 100%;
+    padding: 25px;
+    float: left;
+    width: auto;
+}
+.About{
+    margin-left: 20%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+img{
+    width: 30%;
+    margin: 0.8%;
+    margin-left: 1.9%;
+    position: relative;
+}
+.holder{
+    float: left;
+}
+.album{
+    position: relative;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40%;
+    border-bottom: solid 1px black;
+    padding-bottom: 0.7%;
+}
+footer{
+    clear: both;
+    margin-top: 10%;
+    text-align: left;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.tttb{
+    margin-left: 35%;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+}
+section{
+    width: 150px;
+    height: 150px;
+}
+.t1{
+    border-right: solid;
+    border-bottom: solid;
+    float: left;
+}
+.t2{
+    border-bottom: solid;
+    float: left;
+}
+.t3{
+    border-left: solid;
+    border-bottom: solid;
+    float: left;
+}
+.t4{
+    border-right: solid;
+    clear: left;
+    float: left;
+}
+.t5{
+    float: left;
+}
+.t6{
+    border-left: solid;
+    float: left;
+}
+.t7{
+    clear: left;
+    border-top: solid;
+    border-right: solid;
+    float: left;
+}
+.t8{
+    border-top: solid;
+    float: left;
+}
+.t9{
+    border-left: solid;
+    border-top: solid;
+    float: left;
+}
