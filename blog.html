@@ -29,28 +29,46 @@
             </p>
             <article>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, impedit accusantium. Quo voluptates tenetur optio excepturi esse possimus exercitationem libero consequuntur dolorum, fuga veniam.
-                </p>
+                    The most important reason for using responsive and unitless values in our CSS is for supporting our users that rely on zooming.
+                     Our users need to be able to zoom the viewport without loss of content  or functionality, or restrictions imposed by css values
+                      or viewport scaling settings.For example: Let's say we started in pixels the only way to resize the entire component proportionally
+                        is to adjust the size of each element manually to match each other at a new
+                      size. we could use percentage font sizing then the browser calculates those sizes for you and you don't really need to care what the final values are.
+                       It's just a proportion.We could do the exact same thing with em values if we wanted. With font-size, percentage and em are kinda the same thing.
+
+                     "em" is relative to the font size of the element, one em means
+                     the font size of the current item where "rem"  is relative to the root element and also percentage is relative to parent element. 
+                     another exmaple making Room for Icons
+Say we have a decorative blockquote with a custom icon in the upper left. We should account for the scenario when the font size changes. Relative units can help again here.
+We'll set everything with relative units like we've touched on already. The decorative icon we will place with an SVG image applied via a pseudo element. We'll position that 
+pseudo element absolutely, again with relative positioning and sizing, leaving enough space for it (with relative padding) on the parent element.
+With that in place, if we change the font size, everything scales fine. If we used pixel values instead, things wouldn't have scaled quite so nicely. The icon, in particular, could get awkwardly close 
+to the text, or awkwardly far away.
+
+
+
+</p>
               
                 
             </article>
             <p class="date"> 
-                March 11, 2020 14:55 
+                March 20, 2020 14:55 
             </p>
         </section>
         <section>
             <p class="tittle">
-                Browser default width meaning
+                Resetting default width
             </p>
             <article>
                
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, impedit accusantium. Quo voluptates tenetur optio excepturi esse possimus exercitationem libero consequuntur dolorum, fuga veniam.
-                </p>
+                <p>When we do not set the browser width it sets default value for the browser that is 16px. And we can change these by simply setting 
+                    width to any amount we want.
+
+                    </p>
             </article>
             <p class="date"> 
-                March 11, 2020 15:00 
+                March 20, 2020 15:55 
             </p>
         </section>
         <section>
@@ -59,12 +77,27 @@
             </p>
             <article>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, impedit accusantium. Quo voluptates tenetur optio excepturi esse possimus exercitationem libero consequuntur dolorum, fuga veniam.
-                </p>
+                   <strong> CSS3 Colors </strong><br><br>
+CSS3 brings with it support for some new ways of describing colours .
+The color keyword list has been extended in the CSS3 color module to include 147 additional keyword 
+colors (that are generally well supported), CSS3 also provides us with a number of other options: HSL, HSLA(
+HSL stands for hue, saturation, and lightness. Unlike RGB, where you need to manipulate the saturation or brightness of a color 
+by changing all three color values in concert, with HSL you can tweak either just the saturation or the lightness while keeping
+ the same base hue.), and RGBA(RGBA works just like RGB,
+ except that it adds a fourth value: alpha, the opacity level or alpha transparency level.) 
+The most notable change with these new color types is the ability to declare semitransparent colors. <br><br>
+<strong> Rounded Corners: border-radius</strong> <br><br>
+The border-radius property lets you create rounded corners without the need for images or additional markup.
+<br><br>
+<strong> Drop Shadows </strong><br><br>
+CSS3 provides the ability to add drop shadows to elements using the box-shadow property. This property lets you specify the color, height, width, blur,
+ and offset of one or multiple inner and/or outer drop shadows on your elements
+
+                    </p>
                  
             </article>
             <p class="date"> 
-                March 11, 2020 15:30 
+                March 20, 2020 16:55 
             </p>
         </section>
     </div>
